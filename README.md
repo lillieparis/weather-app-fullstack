@@ -1,8 +1,18 @@
 This web application is a microservice-based full-stack weather application built using Spring Boot for the backend and Vue.js for the frontend. 
-In its development, I put particular in learning backend frameworks and tools like: Eureka, Jenkins, API Gateway, etc.
+In its development, I put particular in learning backend frameworks and tools like: Eureka, Jenkins, Maven, API Gateway, etc.
 
 ---Functionality---
+Upon opening the web application you will be directed to a welcome page.
+![Welcome page](./images/welcome_page.png)
 
+First time users will click, "create account" and redirected to the create account page
+![Create account page](./images/create_account.png)
+
+After making account, or returning users will be brought back to the welcome page, where they can enter their login information
+![Login page](./images/login.png)
+
+If you're login credentials are valid, you will be redirected to the main page:
+![Main page](./images/main_page.jpeg)
 
 ---Backend Mechanisms---
 For Service Registry and Service Discovery of the microservices, I added a Eureka Server. This addition, for example, allows 
@@ -26,8 +36,10 @@ Then can view all the microservices running on the Eureka server at:
 
 http://localhost:8761
 
-Then, to start the frontend, just ru in the frontend/weather-app-frontend directory:
+Then, to start the frontend, just run in the frontend/weather-app-frontend directory:
 
 npm run dev 
+
+The web app's url will appear in the terminal.
 
 Backend endpoints: localhost:9191/
