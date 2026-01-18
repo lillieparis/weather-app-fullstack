@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"]
+    },"isCustomElement": ["v-app", "v-btn", "v-navigation-drawer"]
+  },
+  "exclude": ["node_modules", "dist","v-app"]
+}

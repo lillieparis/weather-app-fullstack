@@ -1,0 +1,14 @@
+To start the backend:
+Within each microservice: weather-service, user-service, 
+gateway-api, and the eureka-server using the following command:
+./mvnw spring-boot:run
+
+Then can view all the microservices running on the Eureka server at: 
+
+http://localhost:8761
+
+Then, to start the frontend, just ru in the frontend/weather-app-frontend directory:
+
+npm run dev 
+
+Backend endpoints: localhost:9191/
